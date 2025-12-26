@@ -23,23 +23,6 @@ The model was trained for 50 epochs on the Tox21 dataset.
 * **Reconstruction Accuracy:** Achieved **~91.6%** next-token prediction accuracy.
 * **Generation Validity:** **~65%** of chemically sampled sequences were valid molecules (verified via RDKit).
 
-## Installation
-
-1.  Clone the repository:
-    ```bash
-    git clone [https://github.com/yourusername/molecular-transformer.git](https://github.com/yourusername/molecular-transformer.git)
-    cd molecular-transformer
-    ```
-
-2.  Install dependencies:
-    ```bash
-    pip install torch numpy matplotlib rdkit pandas sklearn
-    ```
-
-3.  Run the notebook:
-    ```bash
-    jupyter notebook transformer_example.ipynb
-    ```
 
 ## Attribution & References
 This project is an adaptation and extension of the Deep Generative Modeling course material provided by **Jakub M. Tomczak**.
